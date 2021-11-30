@@ -1,0 +1,168 @@
+body {
+  height: 100%;
+  width: 100%;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url("/media/classroom_bg.png");
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  .container {
+      height: auto;
+      width: 80vw  ;
+      background-color: #fff;
+      border-radius: 10px 10px 0 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: top;
+
+      .titulo {
+        display: flex;
+        flex-direction: column;
+        align-items: left;
+        justify-content: center;
+        width: 100%;
+        height: 50px;
+        font-size: 18;
+        font-weight: bold;
+        background-color: #c22a1f;
+        padding: 10px 50px;
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+        h1{
+          color: #fff;
+        }
+      }
+
+      .form {
+        background-color: white;
+        width: 100%;
+        height: auto;
+
+        .titulo1{
+          background-color: white;
+          width: 90%;
+          margin-left: 20px;
+          margin-top: 25px;
+        }
+
+        .pergunta1 {
+          display: flex;
+          flex-direction: row;
+          justify-content: left;
+          height: 150px;
+          width: 100%;
+          margin-left: 30px;
+
+
+          .right-1 {
+            height: 150px;
+            width: 20%;
+            background-color: white;
+            flex-direction: column;
+          }
+
+          .right-2 {
+            height: 150px;
+            width: 20%;
+            background-color: white;
+            flex-direction: row;
+          }
+
+
+          .left-1 {
+            height: 170px;
+            width: 350px;
+            display: flex;
+            flex-direction: row;
+            align-items: left;
+            justify-content: top;
+            color: black;
+            display: flex;            
+          }
+          
+        }
+
+      }
+
+      
+  }
+
+}
+
+.pg2 {
+  margin-top: 15px;
+}
+
+#txUm {
+  font-size: 13px;
+  margin-top: 2px;
+  margin-left: 10px;
+}
+
+.rbt_importancia {
+  font-size: 13px;
+  margin-top: 12px;
+  margin-left: 10px;
+}
+
+.pg1 {
+  margin-top: 15px;
+  width: 100%;
+  font-size: 18px;
+  flex-direction: row;
+
+  .rbt_satis {
+    font-size: 13px;
+    margin-top: 12px;
+    margin-left: 10px;
+    display: flex;
+    color: black;
+    flex-direction: row;
+    width:450px;
+
+    .ruim{
+      width: 25%; 
+    }
+ 
+  }
+}
+
+#txdois {
+  font-size: 13px;
+  margin-top: 2px;
+  margin-left: 10px;
+  color: black;
+}
+
+.divisor{
+  background-color:red;
+  width: 96%;
+  height:2px;
+  z-index: 100;
+}
+
+.box{
+  margin: 0 auto;
+  width: 500px;
+  padding: 1em;
+  border: 1px solid #c22a1f;
+  border-radius: 1em;
+  margin-left: 30px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.pg9{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 20px;
+}
