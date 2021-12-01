@@ -13,8 +13,12 @@ body {
   align-items: center;
   justify-content: center;
 
+  .tudo{
+    padding: 70px 0;
+  }
+
   .container {
-      height: auto;
+      height: 80%;
       width: 80vw  ;
       background-color: #fff;
       border-radius: 10px 10px 0 0;
@@ -45,12 +49,11 @@ body {
         background-color: white;
         width: 100%;
         height: auto;
+        padding: 20px;
 
         .titulo1{
           background-color: white;
           width: 90%;
-          margin-left: 20px;
-          margin-top: 25px;
         }
 
         .pergunta1 {
@@ -59,7 +62,6 @@ body {
           justify-content: left;
           height: 150px;
           width: 100%;
-          margin-left: 30px;
 
 
           .right-1 {
@@ -95,10 +97,6 @@ body {
       
   }
 
-}
-
-.pg2 {
-  margin-top: 15px;
 }
 
 #txUm {
@@ -151,13 +149,12 @@ body {
 
 .box{
   margin: 0 auto;
-  width: 500px;
+  width: 100%;
   padding: 1em;
   border: 1px solid #c22a1f;
   border-radius: 1em;
-  margin-left: 30px;
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin: 20px 0;
+  resize: none;
 }
 
 .pg9{
@@ -165,4 +162,37 @@ body {
   flex-direction: row;
   justify-content: space-between;
   margin-top: 20px;
+}
+
+.buttons{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.btn-send, .btn-clean{
+  width: 45%;
+  border-radius: 10px;
+  padding: 20px;
+  font-size: 3rem;
+  margin: 40px 0;
+  transition: all .3s;
+}
+
+.btn-send:hover, .btn-clean:hover{
+  transform: scale(1.03);
+  cursor: pointer;
+  transition: all .3s;
+}
+
+.btn-send{
+  background-color: #c22a1f;
+  color: #fff;
+}
+
+.btn-clean{
+  background-color: #fff;
+  border: 2px solid #c22a1f;
+  color: #c22a1f;
 }
