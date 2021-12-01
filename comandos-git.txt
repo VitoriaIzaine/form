@@ -1,0 +1,16 @@
+-- pegando arquivos do repo:
+* copia o link do repo
+* cmd
+* git init
+* git clone [link do repo]
+
+-- atualizando arquivos editados do repo:
+* cmd ou power shell
+* git add .
+* git commit -m "[mensagem de envio]"
+* git push
+
+* ? caso não tenha feito por git clone, faça isso: git remote add [nome da var para guardar link do repo] [link do repo]
+* git push [nome da var criada com o link do repo]
+
+-- criando o link para envio dos arquivos:
